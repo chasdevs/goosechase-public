@@ -1,0 +1,40 @@
+# IDE ignores
+.idea
+
+# OS Files
+*.DS_Store
+
+### Node template
+# Logs
+logs
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled output directory
+dist
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Local configs
+config/**/local*
+
+# Local docker-compose override (docker-compose loads by default)
+docker-compose.override.yml
+
+# Test reports
+test-reports
+test-results.xml
+
+# git worktree directory
+worktrees

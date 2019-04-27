@@ -1,0 +1,11 @@
+{
+  "name": "goosechase-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Goosechase.",
+  "main": "index.js",
+  "author": "chasdevs",
+  "license": "ISC",
+  "dependencies": {
+    "startbootstrap-new-age": "^5.0.4"
+  }
+}
