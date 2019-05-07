@@ -7,8 +7,5 @@
   "license": "ISC",
   "dependencies": {
     "startbootstrap-new-age": "^5.0.4"
-  },
-  "scripts": {
-    "build": "cd public; npm install; npx gulp build"
   }
 }
