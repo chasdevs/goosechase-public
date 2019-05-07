@@ -8,7 +8,7 @@
   "dependencies": {
     "startbootstrap-new-age": "^5.0.4"
   },
-  "scripts":{
-    "build": "cd public; npx gulp build"
+  "scripts": {
+    "build": "cd public; npm install; npx gulp build"
   }
 }
