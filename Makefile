@@ -12,7 +12,11 @@ ERROR=$(ERROR_COLOR)[ERROR]$(NO_COLOR)
 WARN=$(WARN_COLOR)[WARNING]$(NO_COLOR)
 ERROR_STRING=$(ERROR_COLOR)%s$(NO_COLOR) # printf '$(ERROR_STRING) %s' 'Error text in red.' 'Rest of text in no color.'
 
-.PHONY: deploy
+.PHONY: build deploy
+
+build:
+	@echo -e "$(OK) Building..."
+	cd public && npm install && npx gulp build
 
 deploy:
 	@echo -e "$(OK) Deploying to production..."
