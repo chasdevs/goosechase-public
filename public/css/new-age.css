@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - New Age v5.0.4 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2019 [object Object]
+ * Copyright 2013-2020 [object Object]
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
